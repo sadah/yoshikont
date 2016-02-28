@@ -11,27 +11,49 @@
     font-size: 62.5%;
   }
   body {
+    margin: auto;
     font-size: 1.6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:90vh;
-  }
-  .yf-spin {
-    font-size: 30rem;
     width: fit-content;
-    height:fit-content;
+  }
+  .yf- {
+    font-size: 30rem;
+    margin: 4rem;
+  }
+  .spin {
     animation: spin 2s ease-in-out infinite;
   }
   @keyframes spin {
   	0% {transform: rotate(0deg);}
   	100% {transform: rotate(360deg);}
   }
+  .gkbr {
+  	animation: gkbr 0.2s linear infinite;
+  }
+  @keyframes gkbr {
+    0%	{transform:rotate(0deg)	translate(0,0);}
+    12.5%	{transform:rotate(0.4deg)	translate(0.5rem,-0.5rem);}
+    25%	{transform:rotate(0.8deg)	translate(0,0.5rem);}
+    37.5%	{transform:rotate(0.4deg)	translate(-0.5rem,0);}
+    50%	{transform:rotate(0deg)	translate(0,0);}
+    62.5%	{transform:rotate(-0.4deg)	translate(0.5rem,0);}
+    75%	{transform:rotate(-0.8deg)	translate(0,0.5rem);}
+    87.5%	{transform:rotate(-0.4deg)	translate(-0.5rem,-0.5rem);}
+    100%	{transform:rotate(0deg)	translate(0,0);}
+  }
+
   </style>
 </head>
 <body>
-  <section class="yf-spin">
-    yoshiko
-  </section>
+  <main>
+    <section class="yf-">
+      yoshiko
+    </section>
+    <section class="yf- spin">
+      yoshiko
+    </section>
+    <section class="yf- gkbr">
+      yoshiko
+    </section>
+  </main>
 </body>
 </html>
