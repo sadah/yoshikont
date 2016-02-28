@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'yoshikont';
     src:
-        url('fonts/yoshikont.ttf?on0zca') format('truetype'),
-        url('fonts/yoshikont.woff?on0zca') format('woff'),
-        url('fonts/yoshikont.svg?on0zca#yoshikont') format('svg');
+        url('fonts/yoshikont.ttf?nim26') format('truetype'),
+        url('fonts/yoshikont.woff?nim26') format('woff'),
+        url('fonts/yoshikont.svg?nim26#yoshikont') format('svg');
     font-weight: normal;
     font-style: normal;
 }
